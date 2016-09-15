@@ -6,7 +6,8 @@ const app = express();
 app.use((req, res, next) => {
 
   onFinished(res, function(err, res) {
-    console.log('res.statusCode', res.statusCode)
+    const log = `url: ${req.url} statusCode: ${res.statusCode}`
+    console.log(log)
   })
 
   next()
