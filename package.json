@@ -1,0 +1,26 @@
+{
+  "name": "node-express-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebgregory/node-express-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebgregory/node-express-middleware/issues"
+  },
+  "homepage": "https://github.com/calebgregory/node-express-middleware#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "on-finished": "^2.3.0"
+  }
+}
